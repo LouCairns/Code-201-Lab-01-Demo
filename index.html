@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h1 {
+        font-family: cursive;
+        color: pink;
+        background-color: blueviolet;
+        border: 3px solid pink;
+        text-align: center;
+        text-decoration-line: underline;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <h1>Class 1 Lab</h1>
+
+      <p style="color: red; background-color: beige" script="function">
+        What is your favourite size adjective? (e.g. huge, big, large, tiny,
+        enormous, little, tall, long, gigantic)
+      </p>
+
+      <p style="color: orange; background-color: beige">
+        What is your favourite shape adjective? (e.g. flat, round, square,
+        triangular, rectangular etc)
+      </p>
+
+      <p style="color: green; background-color: beige">
+        What is your favourite colour? (e.g. blorange, red, orange, yellow,
+        green, blue etc)
+      </p>
+
+      <p style="color: blue; background-color: beige">
+        What is your favourite amphibian? (e.g. frog, newt, toad)
+      </p>
+
+      <script>
+        let FaveSize = prompt(
+          "What is your favourite size adjective? e.g. huge, big, large, tiny, enormous, little, tall, long, gigantic"
+        );
+        console.log("Our visitors favourite size adjective is " + FaveSize);
+        console.log(typeof Favesize);
+
+        let FaveShape = prompt(
+          "What is your favourite shape adjective? e.g. flat, round, square, triangular, rectangular"
+        );
+        console.log("Our visitors favourite shape adjective is " + FaveShape);
+
+        let FaveColour = prompt(
+          "What is your favourite colour adjective? e.g. blorange, red, orange, yellow, green, blue"
+        );
+        console.log("Our visitors favourite colour adjective is " + FaveColour);
+
+        let FaveAmphibian = prompt(
+          "What is your favourite amphibian? e.g. frog, toad, newt, axolotl"
+        );
+        console.log(
+          "Our visitors favourite colour adjective is " + FaveAmphibian
+        );
+
+        alert(
+          "Oh my god, that's so weird. I collect " +
+            FaveSize +
+            ", " +
+            FaveShape +
+            ", " +
+            FaveColour +
+            " " +
+            FaveAmphibian +
+            "s!"
+        );
+      </script>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
